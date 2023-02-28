@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'vendor/autoload.php';
+require 'autoload.php';
 $client = new \GuzzleHttp\Client();
 $card_array = $_SESSION['card_array'];
 $deck_id = $_SESSION['deck_id'];
