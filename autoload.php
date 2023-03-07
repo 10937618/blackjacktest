@@ -20,7 +20,7 @@ if (PHP_VERSION_ID < 50600) {
     );
 }
 
-require_once $phpToJavascript = new PHPToJavascript\PHPToJavascript();
+require_once('../vendor/autoload.php') $phpToJavascript = new PHPToJavascript\PHPToJavascript();
    $phpToJavascript->addFromFile($inputFilename); $jsOutput =
    $phpToJavascript->toJavascript();
 

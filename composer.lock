@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "964674e76f55cab2e609bc171b5a1fb5",
+    "content-hash": "63fbd00f2722caaa3507760c7505322a",
     "packages": [
         {
             "name": "base-reality/php-to-javascript",

@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
+        'name' => '10937618/blackjack',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ea62e04cacb96b17bd5b2b8fb8970916f42bfbab',
+        'reference' => 'f89c2da49960b004a23be0098c2e5105d6e5c781',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
+        '10937618/blackjack' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ea62e04cacb96b17bd5b2b8fb8970916f42bfbab',
+            'reference' => 'f89c2da49960b004a23be0098c2e5105d6e5c781',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
