@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'vendor/autoload.php';
+require 'autoload.php';
 $client = new \GuzzleHttp\Client();
 $response = $client->request('GET', 'https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1');
 $response_data = json_decode($response->getBody(), TRUE);

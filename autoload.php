@@ -20,6 +20,8 @@ if (PHP_VERSION_ID < 50600) {
     );
 }
 
-require_once __DIR__ . '/composer/autoload_real.php';
+require_once $phpToJavascript = new PHPToJavascript\PHPToJavascript();
+   $phpToJavascript->addFromFile($inputFilename); $jsOutput =
+   $phpToJavascript->toJavascript();
 
 return ComposerAutoloaderInit457f6ac58a68c4185a6c31216b909199::getLoader();
