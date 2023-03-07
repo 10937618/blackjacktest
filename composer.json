@@ -1,6 +1,7 @@
 {
     "name": "10937618/blackjack",
     "description": "Some description will be useful too!",
+    "license": "proprietary",
     
     "require": {
         "guzzlehttp/guzzle": "^7.5",
