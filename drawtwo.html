@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="drawtwo.php"
+    <title>Adam's Black Jack</title>
+</head>
+<body>
+    <?php foreach($card_array as $card) : ?>
+       <img src="<?php echo $card['image'];?>">
+   <?php endforeach; ?>
+   <h1><?php echo "Your card total is $card_total"; ?></h1>
+   <?php if($card_total > 21): ?>
+       Sorry your total is above 21
+       <a href="index.php">Play Again</a>
+   <?php elseif($card_total == 21): ?>
+       You win, take a trip to Vegas
+       <a href="index.php">Play Again</a>
+   <?php else: ?>
+       <a href="drawagain.php">Draw again</a>
+   <?php endif; ?>
+</body>
+</html>
