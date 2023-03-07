@@ -1,4 +1,7 @@
 {
+    "name": "10937618/blackjack",
+    "description": "Some description will be useful too!",
+    
     "require": {
         "guzzlehttp/guzzle": "^7.5",
         "base-reality/php-to-javascript": "0.1.16"
