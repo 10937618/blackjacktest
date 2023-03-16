@@ -8,11 +8,13 @@
         <title>Big Tex's Black Jack</title>
     </head>
     <body>
-        <h1>Welcome to Big Tex's BlackJack!</h1>
-        <img width=200, src="blackjackGIF.gif"></img>
-        <h2>Let's see how lucky you are!</h2>
-
-        <button id="playNow">Play Now</button>       
+        <div class="message">
+            <h2 class="outcome" id="outcome"></h2>
+            <button class="try-again">Try again</button>
+        </div>
+        <div class="cards"></div>
+        <button class="hit-button" id="hit-button">Hit me</button>       
+        <h2 id="score"></h2>
     </body>
-    <script src="app-index.js"></script>
+    <script src="gameplay.js"></script>
 </html>
